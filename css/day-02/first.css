@@ -1,0 +1,23 @@
+a{
+    color: red;
+}
+
+.link{
+    background-color: aqua;
+    text-decoration: none;
+    transition:none;
+}
+#para3, #para2 {
+    color:blue;
+    border: 3px dashed ;
+    margin: 40px;
+
+
+}
+div{
+    animation: delay 10s;
+}
+*{
+    background-color: aliceblue;
+    forced-color-adjust: auto;
+}
