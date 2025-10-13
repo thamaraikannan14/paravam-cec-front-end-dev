@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><b>types of function in javascript</b></h1>
+    <h1><b><ol>
+        <li>function declaration </li>
+        <li>function expression</li>
+        <li> arrow function</li>
+    </ol></b></h1>
+    <pre>
+        <h4>function declaration</h4>
+        1. function func_name(para){
+            #code
+        }
+        func_name(arguments);
+<h4>  function expression</h4>
+     2.
+     const func_name=function(parameters){
+        #code
+     }
+     func_name(arguments); 
+     
+     <h4> arrow functions</h4>
+     3. const func_name =(parameters)=>{
+        #code
+     }
+     func_name(arguments);
+    </pre>
+    <script>
+        function add(a,b){
+            return a+b;
+        }
+       a=add(1,2);
+       console.log("the addition of the numbers by function declaration",a)
+       //function expression
+       const mul=function(a,b){
+        return a*b;
+       }
+       console.log(" the mul of the numbers is by func expression",mul(2,4))
+       // arrow function
+       const fact=(n)=>{
+        if (n == 0 || n==1){
+            return 1;
+        }
+        else{
+        return n*fact(n-1);
+        }
+       }
+       console.log("the factorial of the number is by arrow function",fact(5))
+    </script>
+</body>
+</html>

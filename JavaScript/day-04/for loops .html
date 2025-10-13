@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>for loops will iterates with a condition for it </h1>
+    <script>
+        nums=12;
+        for(let i=1;i<=nums;i++){
+            console.log(i);
+        }
+        console.log(" while-loops")
+        console.log("when we dont know the how many times the loop runs it runs till the conditions get true");
+         let i=0;
+        while(i<10){
+            console.log(i);
+            i++;
+        }
+        console.log("do-while loops")
+        let tries = 0;
+        do {
+            console.log("Trying to connect...", tries);
+            tries++;
+        }while (tries<=3);
+        console.log("for in loop");
+        let person = { name: "Asha", age: 22,standard:'2nd'};
+        for (let key in person) {
+            console.log(key + ": " + person[key]);
+        }
+        console.log(" for-of-loops");
+        let fruits = ["apple", "banana", "cherry"];
+        for (let fruit of fruits) {
+            console.log(fruit);
+        }
+        console.log(" for each loops");
+        let colors = ["red", "green", "blue"];
+        colors.forEach(function(color) {
+            console.log(color);
+        });
+// Output: red, green, blue
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
